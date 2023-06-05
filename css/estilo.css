@@ -1,0 +1,213 @@
+/* RESET  */
+
+   
+
+html,body{
+    font-size:15px ;
+    font-family: "Roboto",San-serif;
+    color: #384158;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 2.5rem;   
+}
+h2{
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1.1rem;
+}
+
+p{
+    font-size: 1rem;   
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+   max-width: 100%;
+}
+header#header .navTop {
+    background-color:#14bdee;
+    color: white;
+}
+
+header#header .navTop .container{
+    padding: 10px;
+    display: flex;
+    align-items:center;
+}
+
+header#header .navTop a {
+    color: white;
+    margin-left: 30px;
+}
+
+header#header .navTop div:last-child{
+    margin-left:auto;
+}
+
+nav.navbar{
+    padding: 30px 0 ;
+}
+
+nav.navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+nav.navbar .navbar-brand span{
+    color: #14bdee;
+}
+nav.navbar a{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 20px;
+}
+nav.navbar a:hover{
+    color: #14bdee; 
+}
+
+nav.navbar .buscador{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;    
+}
+
+section#banner{
+    min-height: 70vh;
+    background: url(../img/fondoCabecera.jpg) no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+section#banner a{
+    color: white;
+    background-color: #14bdee;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+section#banner a:hover{
+    background-color: #4accf2;
+}
+
+section#plataforma{
+    min-height: 70vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid 1px gainsboro;
+    padding: 50px 0;
+}
+
+section#plataforma .bienvenida{
+    max-width:60%;
+    margin:100px 0;
+}
+section#plataforma .bienvenida h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+@media screen and (max-width:767px){
+    section#plataforma .bienvenida{
+        max-width:100%;
+        padding: 15px;
+    }
+    
+    section#plataforma div.row > div{
+        margin: 20px 0;
+       
+    } 
+    
+}
+
+section#plataforma .container h3{
+    margin: 15px 0;
+}
+
+section#cursos {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap:20px;    
+    padding: 50px 15px;
+    border-bottom: solid 1px gainsboro;
+}
+section#cursos img{
+    margin: 15px 0;
+}
+section#cursos h2{ 
+    font-size: 2rem;
+    text-align: center;
+}
+
+section#cursos h4+p {
+    min-height: 150px;
+}
+
+section#cursos > div > p{
+    font-size: 1rem;
+    text-align: center;
+    max-width: 60%;
+    margin:20px auto;
+
+}
+@media screen and (max-width:767px){
+    section#cursos > div > p{
+        max-width: 100%;
+    }
+}
+section#cursos div.estudent{
+    display: flex;
+    font-weight: bold;
+    font-family:"Roboto Slab";
+   
+}
+
+
+section#cursos .row div.sombra{ 
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding: 0 15px;
+    border-radius: 15px;
+}
+section#cursos div.estudent :last-child{
+  margin-left: auto;
+  font-size: 1.5rem;
+  color: #14bdee;
+}
+
+section#cursos div.estudent i{
+  margin-right: 10px;
+}
+
+section#cursos > a {
+    font-size: 1.2rem;
+    background-color: #14bdee;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 50px 0;
+
+    
+}

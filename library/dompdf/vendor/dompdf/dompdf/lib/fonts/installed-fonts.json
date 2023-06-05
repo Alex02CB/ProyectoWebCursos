@@ -1,0 +1,10 @@
+{
+    "roboto": {
+        "normal": "\/Applications\/MAMP\/htdocs\/ProyectoWebCursos\/library\/dompdf\/vendor\/dompdf\/dompdf\/lib\/fonts\/roboto_normal_7bc701b343c10631f60048716b96e4f7",
+        "500": "\/Applications\/MAMP\/htdocs\/ProyectoWebCursos\/library\/dompdf\/vendor\/dompdf\/dompdf\/lib\/fonts\/roboto_500_5774d6fb05eba3d096525f821dbe4137",
+        "bold": "roboto_bold_8db5cb5d0586c1e891426d13097b1d04"
+    },
+    "roboto slab": {
+        "normal": "roboto_slab_normal_f2cbb4e7da8833349e5b3bd73ceae8d4"
+    }
+}
